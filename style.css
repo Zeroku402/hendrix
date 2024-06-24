@@ -4,7 +4,7 @@
   } */
   
   body{
-font-family: segoe UI;
+font-family: roboto;
   }
   .menu ul li{
     cursor: pointer;
@@ -27,4 +27,35 @@ font-family: segoe UI;
   .tw-target-text{
 display: flex;
 text: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text: center;
+}
+
+.has-text-algin-left{
+display: flex;
+text: center;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  justify-content: center
+}
+
+h2 {
+  display: flex;
+  justify-content: center
+}
+
+.wp-block-media-text__media{
+  display: flex;
+  
 }
