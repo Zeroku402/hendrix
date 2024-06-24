@@ -4,7 +4,7 @@
   } */
   
   body{
-
+font-family: segoe UI;
   }
   .menu ul li{
     cursor: pointer;
@@ -23,3 +23,8 @@
   .menu ul{
     overflow: hidden;
   }
+
+  .tw-target-text{
+display: flex;
+text: center;
+}
