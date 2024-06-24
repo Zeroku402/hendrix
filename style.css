@@ -1,3 +1,25 @@
-a{
-    color: red !important;
-}
+/* * {
+    font-family: monospace;
+    font-size: 25px;
+  } */
+  
+  body{
+
+  }
+  .menu ul li{
+    cursor: pointer;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .menu li{
+    float: right;
+    margin: 20px 20px;
+    padding-left: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+  .menu ul{
+    overflow: hidden;
+  }
