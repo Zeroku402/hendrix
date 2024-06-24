@@ -24,9 +24,10 @@ font-family: roboto;
     overflow: hidden;
   }
 
-  .tw-target-text{
-display: flex;
-text: center;
+.tw-target-text {
+  display: flex;
+  TEXT-ALIGN: CENTER;
+  justify-content: center;
 }
 
 p {
@@ -63,4 +64,23 @@ h2 {
 .wp-block-group{
   display: flex;
   justify-content: center;
+  gap: normal;
+}
+
+.ytp-cued-thumbnail-overlay-image{
+  display: flex;
+  align-content: center;
+}
+
+.wp-block-gallery has-nested-images columns-default is-cropped{
+  display: flex !important;
+  align-content: center;
+}
+
+figure{
+  display: flex;
+}
+
+.wp-block-image aligncenter size-full{
+  display: flex;
 }
