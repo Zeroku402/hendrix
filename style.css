@@ -28,6 +28,23 @@ font-family: roboto;
     color: black;
 }
 
+footer{
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F0F0F0;
+}
+
+/* .wp-block-media-text has-media-on-the-right is-stacked-on-mobile{
+  display: flex;
+  align-items: center;
+}
+
+.wp-block-media-text__content{
+  display: flex;
+  align-items: center;
+} */
+
 
 .tw-target-text {
   display: flex;
