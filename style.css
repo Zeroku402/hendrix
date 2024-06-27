@@ -6,23 +6,28 @@
   body{
 font-family: roboto;
   }
-  .menu ul li{
-    cursor: pointer;
-    list-style-type: none;
-    justify-content: space-between;
+  
+  .menu-nav-container ul {
     display: flex;
-    text-decoration: none;
-    display: inline-block;
-  }
-  .menu li{
-    float: right;
-    margin: 20px 20px;
-    padding-left: 20px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  }
-  .menu ul{
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-  }
+}
+
+.menu-nav-container ul li {
+    cursor: pointer;
+    margin: 20px; 
+    padding: 20px;
+}
+
+.menu-nav-container ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+
 
 .tw-target-text {
   display: flex;
